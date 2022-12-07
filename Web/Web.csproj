@@ -103,7 +103,7 @@
   <ItemGroup>
     <Content Include="Areas\Core\Views\web.config" />
     <None Include="packages.config" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Areas\Core\Views\Home\Index.cshtml" />
     <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

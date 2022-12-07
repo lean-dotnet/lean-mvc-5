@@ -1,4 +1,4 @@
-﻿using System.Web.Mvc;
+using System.Web.Mvc;
 
 namespace Web.Areas.Core
 {
@@ -15,9 +15,9 @@ namespace Web.Areas.Core
         public override void RegisterArea(AreaRegistrationContext context) 
         {
             context.MapRoute(
-                "Core_default",
-                "Core/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                "Core_Default",
+                "",
+                new { controller = "Home", action = "Index" }
             );
         }
     }

@@ -7,11 +7,6 @@ namespace Web.App_Start
   {
     public static void RegisterRoutes(RouteCollection routes)
     {
-      routes.MapRoute(
-          name: "Home",
-          url: "",
-          defaults: new { controller = "Home", action = "Index" }
-      );
     }
   }
 }
