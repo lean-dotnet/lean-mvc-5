@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
@@ -14,6 +15,13 @@ namespace Web
 
     protected void Application_Start(object sender, EventArgs e)
     {
+      ViewEngines.Engines.Clear();
+      ViewEngines.Engines.Add(new RazorViewEngine()
+        {
+          ViewLocationFormats = new string[] { "~/Views/{1}/{0}.cshtml" }
+        }
+      );
+
       Routing.RegisterRoutes(RouteTable.Routes);
     }
 
