@@ -88,7 +88,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\materialize.css" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\materialize.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +107,8 @@
     <None Include="packages.config" />
     <Content Include="Areas\Core\Views\Home\Index.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Shared\_rootLayout.cshtml" />
+    <Content Include="Views\_viewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -116,7 +120,6 @@
     <Folder Include="Areas\Core\Data\" />
     <Folder Include="Areas\Core\Views\Shared\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
