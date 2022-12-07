@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "copy-files-from-to": "^3.6.0",
+    "materialize-css": "^1.0.0"
+  },
+  "scripts": {
+    "postinstall": "copy-files-from-to"
+  },
+  "copyFiles": [
+    {
+      "from": "node_modules/materialize-css/dist/css/materialize.css",
+      "to": "Web/Content/materialize.css"
+    },
+    {
+      "from": "node_modules/materialize-css/dist/js/materialize.js",
+      "to": "Web/Scripts/materialize.js"
+    }
+  ],
+  "copyFilesSettings": {
+    "whenFileExists": "overwrite"
+  }
+}
