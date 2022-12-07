@@ -18,7 +18,8 @@ namespace Web
       ViewEngines.Engines.Clear();
       ViewEngines.Engines.Add(new RazorViewEngine()
         {
-          ViewLocationFormats = new string[] { "~/Views/{1}/{0}.cshtml" }
+          ViewLocationFormats = new string[] { },
+          AreaViewLocationFormats = new string[] { "~/Areas/{2}/Views/{1}/{0}.cshtml", }
         }
       );
 
