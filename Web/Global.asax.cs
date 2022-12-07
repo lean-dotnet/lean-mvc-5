@@ -22,6 +22,7 @@ namespace Web
         }
       );
 
+      AreaRegistration.RegisterAllAreas();
       Routing.RegisterRoutes(RouteTable.Routes);
     }
 
