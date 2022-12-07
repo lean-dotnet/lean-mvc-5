@@ -94,7 +94,7 @@
   <ItemGroup>
     <Compile Include="App_Start\Routing.cs" />
     <Compile Include="Areas\Core\CoreAreaRegistration.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Areas\Core\Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -113,9 +113,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Core\Controllers\" />
     <Folder Include="Areas\Core\Data\" />
     <Folder Include="Areas\Core\Views\Shared\" />
+    <Folder Include="Controllers\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <PropertyGroup>
