@@ -12,8 +12,16 @@
       "to": "Web/Content/bootstrap.css"
     },
     {
+      "from": "node_modules/bootstrap/dist/css/bootstrap.css.map",
+      "to": "Web/Content/bootstrap.css.map"
+    },
+    {
       "from": "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
       "to": "Web/Scripts/bootstrap.js"
+    },
+    {
+      "from": "node_modules/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "to": "Web/Scripts/bootstrap.bundle.js.map"
     }
   ],
   "copyFilesSettings": {
