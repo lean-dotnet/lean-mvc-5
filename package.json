@@ -1,19 +1,19 @@
 {
   "dependencies": {
-    "copy-files-from-to": "^3.6.0",
-    "materialize-css": "^1.0.0"
+    "bootstrap": "^5.2.3",
+    "copy-files-from-to": "^3.6.0"
   },
   "scripts": {
     "postinstall": "copy-files-from-to"
   },
   "copyFiles": [
     {
-      "from": "node_modules/materialize-css/dist/css/materialize.css",
-      "to": "Web/Content/materialize.css"
+      "from": "node_modules/bootstrap/dist/css/bootstrap.css",
+      "to": "Web/Content/bootstrap.css"
     },
     {
-      "from": "node_modules/materialize-css/dist/js/materialize.js",
-      "to": "Web/Scripts/materialize.js"
+      "from": "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+      "to": "Web/Scripts/bootstrap.js"
     }
   ],
   "copyFilesSettings": {
